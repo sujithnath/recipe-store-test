@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "semicolon": [true, "always", "strict-bound-class-methods"],
+    "quotemark": [true, "single"],
+    "trailing-comma": true,
+    "object-literal-sort-keys": false,
+    "arrow-return-shorthand": true,
+    "interface-name": [true, "never-prefix"],
+    "no-shadowed-variable": false,
+    "import-spacing": true,
+    "space-within-parens": true,
+    "member-access": false,
+    "no-empty-interface": false,
+    "ordered-imports": false,
+    "prefer-const": true,
+    "indent": false,
+    "await-promise": false,
+    "deprecation": false,
+    "no-use-before-declare": false,
+    "no-floating-promises": false,
+    "no-unnecessary-qualifier": false,
+    "no-unnecessary-type-assertion": false,
+    "strict-type-predicates": false
+  }
+}

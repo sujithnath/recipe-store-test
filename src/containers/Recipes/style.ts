@@ -9,8 +9,10 @@ export const MainTitle = styled.h2`
 
 export const Items = styled.div`
   display: grid;
-  grid-template-columns: 50% 50%;
   grid-template-rows: auto;
-  grid-gap: 26px;
   margin-bottom: 100px;
+  grid-gap: 26px;
+  @media (min-width: 1024px) {
+    grid-template-columns: 50% 50%;
+  }
 `;

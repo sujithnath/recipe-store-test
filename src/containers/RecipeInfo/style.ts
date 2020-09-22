@@ -17,10 +17,15 @@ export const Information = styled.div`
 export const PictureHolder = styled.picture`
   border-radius: 6px;
   overflow: hidden;
-  min-height: 442px;
-  max-height: 442px;
   margin-top: 20px;
   display: block;
+  img {
+    width: 100%;
+  }
+  @media (min-width: 1024px) {
+    min-height: 442px;
+    max-height: 442px;
+  }
 `;
 
 export const ItemDescription = styled.p`

@@ -112,8 +112,13 @@ input:focus {
 `;
 
 export const Container = styled.div`
-  width: 1000px;
   margin: 10px auto 0;
   height: 100%;
   overflow: hidden;
+  @media (min-width: 1024px) {
+    width: 1200px;
+  }
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
 `;

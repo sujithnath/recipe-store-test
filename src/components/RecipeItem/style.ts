@@ -17,8 +17,14 @@ export const TagHolder = styled.div`
 export const PictureHolder = styled.picture`
   border-radius: 6px;
   overflow: hidden;
-  min-height: 300px;
-  max-height: 300px;
+  @media (min-width: 1024px) {
+    min-height: 300px;
+    max-height: 300px;
+  }
+  @media (max-width: 1024px) {
+    min-height: 200px;
+    max-height: 200px;
+  }
   display: block;
 `;
 

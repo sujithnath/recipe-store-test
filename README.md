@@ -33,9 +33,9 @@
 **Technical Requirement**
 
 - [x] ReactJS
-- [x] Redux
+- [x] Redux (could have used context as well)
 - [x] Responsive Web Design
-- [ ] Styled components
+- [x] Styled components
 - [x] Instructions on how to run the project
 - [x] Test cases
 - [x] SSR with Next.js
@@ -67,6 +67,13 @@
 - Keeping in mind that Redux is a global store where to only store the data which is used by different components.
 - Action, reducers and its relative constants are grouped under Store
 - Operation is the only file that can be interacted to maintain the store. It helps in dispatching as well maintaining the store
+
+### Responsiveness
+
+- Configured for all devices including Mobile, Tablet and Desktop. (Basic UI)
+- This is achieved by using GRID, also helps in reducing number of media queries with performance.
+- Using grid, I could also control the placement of elements in layout. Its easy :)
+- Also as a performance booster, with the help of webpack I could extract or separate media queries from the page and load only for mobile device and desktop independently. improves TTI :)
 
 ### Testing
 
